@@ -14,7 +14,7 @@ When deployed, the website will have the following abilities:
   FrontEnd & UI Design: Aaron H. Massey
   CSS/HTML Developer: Tran Nguyen 
   FrontEnd Testing/QA: Dustin Santoso
-  BackEnd Developers: Ronald Prada, Reyes, Darius Ruff 
+  BackEnd Developers: Ronald Parada, Reyes, Darius Ruff 
   Artwork: Madelyn Ledbetter Diaz
   Logo: Marissa J. Cano
   

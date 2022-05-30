@@ -1,7 +1,6 @@
 # AstraVerseCyberShop
-<br />
+
 ## Project Overview
-<br />
 A mock-up for a tech company's online shop that would potentially sell a line of service robots. 
 When deployed, the website will have the following abilities: 
 + Customer can view products
@@ -10,9 +9,8 @@ When deployed, the website will have the following abilities:
 + Customer can view pre-calculated shipping costs at various shipping speeds 
 + Customer can place an order <FEATURE WILL NOT WORK IN MOCK UP TO AVOID FINALIZED BANK CHARGES>
 + Customer can view/track order
-<br />  
+
  ## Development Team
- <br />
   + Project Manager & Lead Coder: Marissa J. Cano 
   + Project Manager: Brandon Cox
   + FrontEnd & UI Design: Aaron H. Massey
@@ -21,9 +19,9 @@ When deployed, the website will have the following abilities:
   + BackEnd Developers: Ronald Parada, Eric Reyes, Darius Ruff 
   + Product Artwork: Madelyn Diaz
   + Logo: Marissa J. Cano
-<br />
+
 ## The Legal Stuff 
- <br />
+
 <sup> ASTRAVERSE AND ALL OF ITS PRODUCTS ARE PROPS NOT INTENDED FOR ACTUAL USE OR SALE. 
  THE CYBER SHOP WAS DEVELOPED FOR EDUCATIONAL PURPOSES TO FURHTER THE KNOWLEDGE OF THE DEVELOPMENT TEAM AND IS ONLY MEANT TO REFLECT 
  A WORKING SHOP APPLICATION WITHOUT ACTUALLY BEING INTENDED FOR REAL USE.

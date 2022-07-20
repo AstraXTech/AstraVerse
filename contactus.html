@@ -35,12 +35,25 @@
 	    <div class="container">
   <form action="action_page.php">
 
+	<h6> Please note: Once a contact submission has been made it typically
+	take us 1-2 business days to respond. Responses are generally made the following business day. 
+		If a response is not received in 1-2 business days, please allow up to 4 business days before submitting a second form.</h6>
     <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    <input type="text" id="fname" name="firstname" placeholder="Your name...">
 
     <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
+    <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+	  
+	 <label for="email">Email</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your email...">
+	  
+	   <label for="phone">Telephone #</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your number...">
+	  
+	   <label for="ordernum">Order #</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your order number...">
+    <!--============== CONTACT FORM - COUNTRIES ==============-->
+	  
     <label for="country">Country</label>
     <select id="country" name="country">
 	<option value="select-country">Select Country</option>
@@ -295,12 +308,22 @@
 	    <option value="Yemen" data-index="248">Yemen</option><option value="Zambia" data-index="249">Zambia</option>
 	    <option value="Zimbabwe" data-index="250">Zimbabwe</option>
     </select>
-
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-    <input type="submit" value="Submit">
-
+ <!--============== CONTACT FORM - Reason ==============-->
+	  
+  <label for="contact-reason">Contact Reason</label>
+    <select id="reason" name="reason">
+	    <option value="reason">Select contact reason.</option>
+	<option value="wheresmyorder?">Where's my order?</option>
+	    <option value="orderissue">Order Issue</option>
+	    <option value="refundreturn">Refund/Return</option>
+	    <option value="productinformation">Product Information</option>
+	    <option value="orderchanges">Make changes to an existing order.</option>
+	    <option value="websiteissue">Issues with our website.</option>
+	    <option value="generalinquiry">General Inquiry</option>
+	    <option value="businessproposition">Business Proposition</option>
+	    <option value="careersinquiry">Career Inquiry</option>
+	      <option value="other">Other</option>
+	  </select>
   </form>
 </div>
 

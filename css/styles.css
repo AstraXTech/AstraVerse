@@ -364,15 +364,19 @@ body.dark-theme {
 }
 
 /*=============== BUTTONS ===============*/
-.button {
-  display: inline-block;
-  background-color: var(--button-color);
-  color: #FFF;
-  padding: 1.25rem 2rem;
-  font-weight: var(--font-medium);
-  transition: .3s;
+button {
+  background-image: url(assets/addtocart.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  /* put the height and width of your image here */
+  height: 50px;
+  width: 200px;
+  border: none;
 }
 
+button span {
+  display: none;
+}
 .button:hover {
   background-color: var(--button-color-alt);
 }

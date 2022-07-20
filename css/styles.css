@@ -208,6 +208,7 @@ body.dark-theme {
   grid-template-columns: auto auto auto;
   height: var(--header-height);
   justify-content: center;
+  text-align: center;
   align-items: center;
   background-color: #787dea;
 }
@@ -265,6 +266,7 @@ body.dark-theme {
   text-transform: uppercase;
   font-size: var(--h2-font-size);
   transition: .3s;
+  text-align: center;
 }
 
 .nav__link:hover {
@@ -496,8 +498,10 @@ body.dark-theme {
 
 /*=============== PRODUCTS ===============*/
 .products__container {
-  grid-template-columns: repeat(2, 1fr);
-  gap: 2rem;
+  grid-auto-flow: column;
+  grid-template-columns: repeat(5, 200px);
+  justify-content: center;
+  gap: 2.5rem;
 }
 
 .products__card {
@@ -507,8 +511,10 @@ body.dark-theme {
   border: 1px solid #646ce6;
   text-align: center;
   transition: .3s;
+  border-radius: 40px;
 }
 
+  
 .products__img {
   height: 125px;
   margin-bottom: var(--mb-1);
@@ -532,13 +538,14 @@ body.dark-theme {
 
 .products__button {
   background-color: var(--button-color);
-  padding: .4rem;
+  padding: .7rem;
   color: #fff;
   font-size: 1rem;
   position: absolute;
-  right: 0;
-  bottom: 0;
+  left: 1;
+  top: 1;
   transition: .3s;
+  border-radius: 40px;
 }
 
 .products__button:hover {
@@ -1086,17 +1093,6 @@ body.dark-theme {
     order: -1;
   }
 
-  .products__container {
-    grid-template-columns: repeat(3, 200px);
-    justify-content: center;
-    gap: 2.5rem;
-  }
-  .products__card {
-    padding: 2rem 0;
-  }
-  .products__img {
-    height: 155px;
-  }
 
   .newsletter__bg {
     text-align: initial;

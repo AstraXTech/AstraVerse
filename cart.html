@@ -1,44 +1,145 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <!-- My CSS -->
-    <link rel="stylesheet" href="cart.css">
-
-    <title>AstraVerse</title>
-  </head>
-  <body>
-  <body style="background-color:rgb(212,230,241);">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <title>AstraVerse</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <!--==================== HEADER & NAV====================-->
+        <header class="header" id="header">
+                <a href="#" class="nav__logo">
+                    <img src="Assets/astraVerseTxtLogo.PNG" width=auto height="80">
+                </a>
+		</header>
+		 <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
       <a class="navbar-brand" href="#">
-        <img src="" width="60" height="60" alt="">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link" href="index.html">PRODUCTS <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link active" href="cart.html">CART</a>
+          <a class="nav-item nav-link active" href="index.html">PRODUCTS<span class="sr-only"></span></a>
+          <a class="nav-item nav-link" href="cart.html">CART</a>
+		<a class="nav-item nav-link" href="contactus.html">CONTACT US</a>
         </div>
       </div>
     </nav>
-    <h1>AstraVerse</h1>
-    <div class = "cartContainer">
-        <div class="">
-           
-        </div>  
-    </div>
-       
-<!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
-  </html>
+
+        <!--==================== CART ====================-->
+        <div class="cart" id="cart">
+            <h2 class="cart__title-center">My Cart</h2> 
+
+            <div class="cart__container">
+                <article class="cart__card">
+                    <div class="cart__box">
+
+                    </div>
+
+                    <div class="cart__details">
+
+                    </div>
+                </article>
+                
+                <article class="cart__card">
+                    <div class="cart__box">
+                        
+                    </div>
+
+                    <div class="cart__details">
+                        
+                    </div>
+                </article>
+
+                <article class="cart__card">
+                    <div class="cart__box">
+                        
+                    </div>
+
+                    <div class="cart__details">
+                        
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== PRODUCTS ====================-->
+            <section class="products section container" id="products">
+                <h2 class="section__title">
+                    Products
+                </h2>
+
+                <div class="products__container grid">
+                    <article class="products__card">
+                        <img src="Assets/productPlaceholder.png" alt="" class="products__img">
+
+                        <h3 class="products__title">AstraDifenda</h3>
+                        <span class="products__price">$36,999.99</span>
+
+                        <button class="products__button">
+                            <i class='bx bx-shopping-bag'></i>
+                        </button>
+                    </article>
+
+                    <article class="products__card">
+                        <img src="Assets/productPlaceholder.png" alt="" class="products__img">
+
+                        <h3 class="products__title">AstraKokyaku</h3>
+                        <span class="products__price">$24,999.99</span>
+
+                        <button class="products__button">
+                            <i class='bx bx-shopping-bag'></i>
+                        </button>
+                    </article>
+
+                    <article class="products__card">
+                        <img src="Assets/productPlaceholder.png" alt="" class="products__img">
+
+                        <h3 class="products__title">AstraShefu</h3>
+                        <span class="products__price">$26,999.99</span>
+
+                        <button class="products__button">
+                            <i class='bx bx-shopping-bag'></i>
+                        </button>
+                    </article>
+
+                    <article class="products__card">
+                        <img src="Assets/productPlaceholder.png" alt="" class="products__img">
+
+                        <h3 class="products__title">AstraMeido</h3>
+                        <span class="products__price">$24,999.99</span>
+
+                        <button class="products__button">
+                            <i class='bx bx-shopping-bag'></i>
+                        </button>
+                    </article>
+
+                    <article class="products__card">
+                        <img src="Assets/productPlaceholder.png" alt="" class="products__img">
+
+                        <h3 class="products__title">AstraUba</h3>
+                        <span class="products__price">$32,999.99</span>
+
+                        <button class="products__button">
+                            <i class='bx bx-shopping-bag'></i>
+                        </button>
+                    </article>
+                </div>
+            </section>
+
+        </main>
+
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scrollup" id="scroll-up"> 
+            <i class='bx bx-up-arrow-alt scrollup__icon' ></i>
+        </a>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>

@@ -537,15 +537,15 @@ body.dark-theme {
 }
 
 .products__button {
-  background-color: var(--button-color);
-  padding: .7rem;
-  color: #fff;
+  background-color: #ffffff;
+  color: #f0f0f0;
   font-size: 1rem;
   position: absolute;
-  left: 1;
-  top: 1;
+  right: 1rem;
+  bottom: 1rem;
   transition: .3s;
-  border-radius: 40px;
+  border-radius: 25px;
+  height: 20px;
 }
 
 .products__button:hover {
@@ -553,7 +553,7 @@ body.dark-theme {
 }
 
 .products__card:hover {
-  box-shadow: 0 8px 32px hsla(0, 0%, 10%, .1);
+  box-shadow: 0 8px 32px hsla(0, 0%, 5%, .1);
 }
 
 /*=============== TESTIMONIAL ===============*/

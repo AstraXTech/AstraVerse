@@ -1,4 +1,15 @@
 /*=============== SHOW MENU ===============*/
+function myFunction() {
+  var x = document.getElementById("collapsibleNavbar");
+  if (x.className === "navbar-toggler") {
+    x.className += " responsive";
+  } else {
+    x.className = "navbar-toggler";
+  }
+}
+
+
+
 const navMenu = document.getElementById('nav-menu'),
       navToggle = document.getElementById('nav-toggle'),
       navClose = document.getElementById('nav-close')

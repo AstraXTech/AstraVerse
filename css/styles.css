@@ -139,13 +139,10 @@ button {
 
 /*=============== BUTTONS ===============*/
 button {
-  background-image: url(assets/addtocart.png);
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  /* put the height and width of your image here */
   height: 50px;
-  width: 200px;
-  border: none;
+  width: 66px;
 }
 
 button span {
@@ -180,10 +177,10 @@ button span {
 .products__card {
   position: relative;
   background-color: #d4d4d4;
-  padding: 1.25rem 0;
-  border: 1px solid #646ce6;
+  border: 15px solid #646ce6;
   text-align: center;
   transition: .3s;
+  border-radius: 25px;
 }
 
 .products__img {
@@ -209,9 +206,7 @@ button span {
 
 .products__button {
   background-color: var(--button-color);
-  padding: .4rem;
   color: #fff;
-  font-size: 1rem;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -443,7 +438,7 @@ button span {
   }
 
   .products__container {
-    grid-template-columns: repeat(3, 200px);
+    grid-template-columns: repeat(5, 300px);
     justify-content: center;
     gap: 2.5rem;
   }

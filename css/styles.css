@@ -104,7 +104,7 @@ button {
 }
 
 .grid {
-  display: grid;
+  display: inline-flex;
 }
 
 .main {

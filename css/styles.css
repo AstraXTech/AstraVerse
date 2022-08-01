@@ -440,7 +440,6 @@ button span {
   .products__container {
     grid-template-columns: repeat(5, 300px);
     justify-content: center;
-    gap: 2.5rem;
   }
   .products__card {
     padding: 2rem 0;

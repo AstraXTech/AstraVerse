@@ -12,7 +12,7 @@
   --title-color: hsl(0, 0%, 15%);
   --text-color: hsl(0, 0%, 35%);
   --text-color-light: hsl(0, 0%, 55%);
-  --body-color: #e0e0ee;
+  --body-color: #f9f1f1;
   --container-color: #fff;
   --border-color: hsl(0, 0%, 94%);
 
@@ -176,7 +176,7 @@ button span {
 
 .products__card {
   position: relative;
-  border: 3px solid #646ce6;
+  border: 3px solid #493267;
   text-align: center;
   transition: .3s;
   border-radius: 25px;

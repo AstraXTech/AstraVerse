@@ -83,7 +83,7 @@ body {
 }
 
 img {
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
 }
 
@@ -388,6 +388,7 @@ button span {
     column-gap: 2.5rem;
   }
   .nav__link {
+    float: right;
     text-transform: initial;
     font-size: var(--normal-font-size);
   }

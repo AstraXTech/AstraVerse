@@ -166,6 +166,14 @@ button span {
   padding: 1rem 1.5rem;
 }
 
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #A7C7E7;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  margin: 0;
+  cursor: pointer;
+}
 
 
 /*=============== PRODUCTS ===============*/

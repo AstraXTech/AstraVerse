@@ -57,32 +57,37 @@
 		If a response is not received in 1-2 business days, please allow up to 4 business days before submitting a second form.</h6> -->
 	  
     <div class="row">
-      <div class="col-25">
-	      <label for="fname">Name</label>
-	      </div>
-      <div class="col-75">
-    <input type="text" id="fname" name="firstname" placeholder="Your name...">
-	 </div>
+    	<div class="col">
+	      <label for="name">Name </label>
+	    </div>
+    	<div class="col">
+    		<input type="text" id="name" name="name" placeholder="Your name..." size=100%>
+		</div>
     </div>
-	   <div class="row">
-      <div class="col-25">
+
+	<div class="row">
+    	<div class="col">
 	      <label for="email">Email</label>
-	         </div>
-      <div class="col-75">	      
-    <input type="text" id="email" name="email" placeholder="Your email...">
-	       </div>
-    </div>	  
-	  <div class="row">
-      <div class="col-25">
-	      <label for="ordernum">Order #</label>
-	         </div>
-      <div class="col-75">      
-    <input type="text" id="lname" name="lastname" placeholder="Your order number...">
-	       </div>
+		</div>
+    	<div class="col">	      
+    		<input type="text" id="email" name="email" placeholder="Your email..." size=100%>
+	    </div>
+    </div>
+
+	<div class="row">
+    	<div class="col">
+	    	<label for="ordernum">Order #</label>
+		</div>
+      	<div class="col">      
+    		<input type="text" id="lname" name="lastname" placeholder="Your order number..." size=100%>
+	    </div>
     </div>
     <!--============== CONTACT FORM - COUNTRIES ==============-->
-	  
+	<div class="row">
+	<div class="col">  
     <label for="country">Country</label>
+	</div>
+	<div class="col">
     <select id="country" name="country">
 	<option value="select-country">Select Country</option>
       <option value="usa">U.S.A.</option>
@@ -336,9 +341,12 @@
 	    <option value="Yemen" data-index="248">Yemen</option><option value="Zambia" data-index="249">Zambia</option>
 	    <option value="Zimbabwe" data-index="250">Zimbabwe</option>
     </select>
+	</div>
  <!--============== CONTACT FORM - Reason ==============-->
-	  
+  <div class="col">	  
   <label for="contact-reason">Contact Reason</label>
+  </div>
+  <div class="col">
     <select id="reason" name="reason">
 	    <option value="reason">Select contact reason.</option>
 	<option value="wheresmyorder?">Where's my order?</option>
@@ -352,20 +360,22 @@
 	    <option value="careersinquiry">Career Inquiry</option>
 	      <option value="other">Other</option>
 	  </select>
+	</div>
+	</div>
 	  
 	  <!-- CONTACT FORM - SUBJECT -->
-	   <div class="row">
-      <div class="col-25">
+	<div class="row">
+      <div class="col">
         <label for="subject">Subject</label>
       </div>
-      <div class="col-75">
-        <textarea id="subject" name="subject" placeholder="Type here..." style="height:200px"></textarea>
+      <div class="col">
+        <textarea id="subject" name="subject" placeholder="Type here..." style="height:200px" cols="100%"></textarea>
       </div>
     </div>
 	  
 	  <!-- CONTACT FORM - SUBMIT -->
 	  
-    <div class="row">
+    <div class="d-flex align-items-end flex-column">
       <input type="submit" value="Submit">
     </div>
   </form>

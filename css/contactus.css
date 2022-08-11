@@ -1,4 +1,10 @@
 /*=============== HEADER & NAV ===============*/
+*{
+border: 0;
+padding: 0;
+margin: 0;
+}
+
 .header {
   display:grid;
   justify-content: center;

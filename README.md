@@ -17,7 +17,6 @@ When deployed, the website will have the following abilities:
   + FrontEnd & UI Design: Aaron H. Massey
   + FrontEnd Testing/QA: Dustin Santoso
   + Product Artwork: Madelyn Diaz
-  + Back-End Developer: Julla Estella
   + Logo Development: Marissa J. Cano
 
 ## The Legal Stuff 

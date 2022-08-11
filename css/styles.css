@@ -57,10 +57,10 @@
 }
 
 /*=============== BASE ===============*/
-* {
-  box-sizing: border-box;
-  padding:10px;
-  margin: 0;
+*{
+border: 0;
+padding: 0;
+margin: 0;
 }
 
 html {

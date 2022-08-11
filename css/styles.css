@@ -403,6 +403,12 @@ input[type=button], input[type=submit], input[type=reset] {
   .nav__btns {
     margin-left: auto;
   }
+  
+  .nav-item{
+  text-align: right;
+  }
+
+
 
   .home__container {
     padding-top: 6rem;
